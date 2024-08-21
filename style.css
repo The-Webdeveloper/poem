@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda:wght@300..900&display=swap');
+
+h1{
+    text-align: center;
+    color: #bf7645;
+    
+}
+
+.container{
+    background-color: #cf9772;
+    text-align: center;
+    height: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+ h1::first-letter{
+    font-size: 90px;
+ }
+h2{
+    text-align: center;
+    color: #e38a64;
+    font-size: 30px;
+    font-family: "Concert One", sans-serif;;
+}
+
+p{
+    text-align: center;
+    font-family: "Merienda", cursive;
+    color: #ad7400;
+}
+
+.link{
+    color: #5e412d;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: black;
+    transition: 0.3ms;
+}
